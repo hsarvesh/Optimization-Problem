@@ -1,0 +1,25 @@
+Optimization Problem
+
+Problem Statement:
+"A logistics company runs a truck which picks up items from various locations. They have hired you to assist in route planning. Refer the sheet ""Data"". 
+The field ""place"" refers to a place where the truck needs to pick an item from. There are a total of 100 such places. Each place has an item of weight mentioned in column ""weight"". All the places can be assumed to be on a 2-dimensional XY plot where the fields ""x_coordinate"" and ""y_coordinate"" represent the location of the place. Example: Place 1 is in (14, -2) coordinate. 
+
+The truck has to start from any one place, collect the weight and then move to next place till it has covered all places and picked up all the items. 
+The cost of transportation can be estimated by the product of distance travelled & weight of items in the truck. Your objective is to devise a path such that the total cost is minimum. Write a function which return the best path(s) with the least cost of transportation.
+
+Example:
+Let say there were only 3 places: A,B,C and the path A-B-C is selected. The truck starts from place A picks up item of weight 10 and goes to place B which is at a distance of 2 units where it picks up another item of weight 20 and then goes to place C which is at a distance of 5 units from B to finally pickup an item of weight 7 then the cost of transportation can be computed as:
+
+Cost(ABC) = 2 * 10 + 5 * (10+20) = 170
+
+However, other paths like A-C-B, B-C-A, B-A-C, etc. also exists. 
+Note: To compute distance, you can use Euclidean distance formula for the distance between two points (https://en.wikipedia.org/wiki/Euclidean_distance)	"
+
+
+Time Limit:
+You can take a maximum of 7 days to revert back
+
+Submissions:
+"Email the below:
+- Your code
+- The best paths with least Cost of transportation	"
